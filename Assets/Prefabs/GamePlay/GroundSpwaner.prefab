@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8639537424230010294
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8639537424230010296}
+  - component: {fileID: 8639537424230010297}
+  m_Layer: 0
+  m_Name: GroundSpwaner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8639537424230010296
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8639537424230010294}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8639537424230010297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8639537424230010294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 463d3bb26afa36840a651b5ac45972b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  groundTiles:
+  - {fileID: 6478740602576810902, guid: 33a7bd43d58ff1240a86b97957510618, type: 3}
+  - {fileID: 7565514365044624128, guid: 4f2cd503d5324fd4ba18b9742807ac18, type: 3}
+  - {fileID: 2627321467605895689, guid: 3a27538896f8fc04faba199060dbc126, type: 3}
+  - {fileID: 5797941848142539342, guid: 9d43ac84fce7b6e4fa2f6f20f4e729c8, type: 3}
+  - {fileID: 5908586848818934198, guid: 513895bc01a0fcc4a8d305f18b043823, type: 3}
+  - {fileID: 9119338812449749039, guid: 29eb66e63c7a1e34ab9bc1038534ad18, type: 3}
+  - {fileID: 4202810353598777180, guid: f5634ae413d1432478ad09b51b10426e, type: 3}
+  - {fileID: 9175656187652565939, guid: 5166f2fe149a6d44aa14404f182161ee, type: 3}
+  - {fileID: 7423773071149361622, guid: 5e67d53d0c9db2646a74d491f2223dba, type: 3}
+  - {fileID: 1711222597768650066, guid: 143c2fe3b2d76f545a379287d7f10bfa, type: 3}
+  - {fileID: 998483002856308730, guid: 72e6ddcdb8dac6246912abf636e0ef10, type: 3}
+  - {fileID: 8711798824663236942, guid: 402a874398e47754a8a2f30cd66e8966, type: 3}
+  - {fileID: 162336610913551643, guid: ba4e5558d8e3cd14486a0939217ff69c, type: 3}
+  - {fileID: 1682906356758470985, guid: 4c865ee3fdd4bc941b629832990311a6, type: 3}
+  spawnPoint: {x: 0, y: 0, z: 45}
